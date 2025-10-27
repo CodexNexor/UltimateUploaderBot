@@ -13,6 +13,7 @@ logger = logging.getLogger(__name__)
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
 
+# _headers
 def _headers():
     import random
     return {
