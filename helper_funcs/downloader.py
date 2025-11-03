@@ -213,6 +213,7 @@ async def download_ytdlp(
         return None
 
 
+# _safe_edit
 async def _safe_edit(msg, text):
     try:
         await msg.edit(text)
