@@ -124,6 +124,7 @@ async def download_ytdlp(
     last_edit  = [0.0]
     final_path = [None]
 
+    # progress_hook
     def progress_hook(d):
         if d["status"] == "downloading":
             now = time.time()
