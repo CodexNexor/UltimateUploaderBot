@@ -223,6 +223,7 @@ async def _safe_edit(msg, text):
 
 # ── Smart Download Dispatcher ────────────────────────────────────────────────
 
+# smart_download
 async def smart_download(
     url: str,
     dest_dir: str,
