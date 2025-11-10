@@ -15,6 +15,7 @@ SUPPORTED_FORMATS = (
 )
 
 
+# is_archive
 def is_archive(filename: str) -> bool:
     lower = filename.lower()
     return any(lower.endswith(ext) for ext in SUPPORTED_FORMATS)
