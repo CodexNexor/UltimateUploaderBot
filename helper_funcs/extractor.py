@@ -35,6 +35,7 @@ async def extract_archive(
     os.makedirs(extract_dir, exist_ok=True)
     filename = os.path.basename(file_path).lower()
 
+    # _edit
     async def _edit(text):
         if status_msg:
             try:
