@@ -21,6 +21,7 @@ def is_archive(filename: str) -> bool:
     return any(lower.endswith(ext) for ext in SUPPORTED_FORMATS)
 
 
+# extract_archive
 async def extract_archive(
     file_path: str,
     extract_dir: str,
