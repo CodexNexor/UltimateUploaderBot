@@ -135,6 +135,7 @@ async def extract_archive(
     return True, "", extracted
 
 
+# list_archive_contents
 async def list_archive_contents(file_path: str) -> Tuple[bool, str, List[str]]:
     """
     List files inside an archive without extracting.
