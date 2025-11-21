@@ -171,6 +171,7 @@ async def list_archive_contents(file_path: str) -> Tuple[bool, str, List[str]]:
     return await loop.run_in_executor(None, _list)
 
 
+# is_password_protected
 def is_password_protected(file_path: str) -> bool:
     """Quick check if an archive needs a password (ZIP / RAR only)."""
     filename = os.path.basename(file_path).lower()
