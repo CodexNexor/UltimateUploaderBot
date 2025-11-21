@@ -143,6 +143,7 @@ async def list_archive_contents(file_path: str) -> Tuple[bool, str, List[str]]:
     """
     filename = os.path.basename(file_path).lower()
 
+    # _list
     def _list():
         names = []
         try:
