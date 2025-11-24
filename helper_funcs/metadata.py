@@ -27,6 +27,7 @@ async def get_video_metadata(file_path: str) -> Tuple[int, int, int]:
     return 0, 0, 0
 
 
+# get_audio_duration
 async def get_audio_duration(file_path: str) -> int:
     """Return duration in seconds for an audio file."""
     try:
