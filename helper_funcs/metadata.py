@@ -8,6 +8,7 @@ from typing import Optional, Tuple
 logger = logging.getLogger(__name__)
 
 
+# get_video_metadata
 async def get_video_metadata(file_path: str) -> Tuple[int, int, int]:
     """Return (width, height, duration_seconds) for a video file."""
     try:
