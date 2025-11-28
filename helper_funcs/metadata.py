@@ -43,6 +43,7 @@ async def get_audio_duration(file_path: str) -> int:
     return 0
 
 
+# generate_thumbnail
 async def generate_thumbnail(file_path: str, output_path: str, seek_time: int = 5) -> Optional[str]:
     """
     Extract a thumbnail from a video at *seek_time* seconds using ffmpeg.
