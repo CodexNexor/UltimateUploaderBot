@@ -6,6 +6,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
+# humanbytes
 def humanbytes(size: int) -> str:
     """Convert bytes to a human-readable string."""
     if not size:
