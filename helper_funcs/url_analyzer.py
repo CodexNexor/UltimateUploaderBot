@@ -46,6 +46,7 @@ JS_URL_PATTERNS = [
 ]
 
 
+# random_headers
 def random_headers() -> Dict[str, str]:
     return {
         "User-Agent": random.choice(Config.USER_AGENTS),
