@@ -167,6 +167,7 @@ async def unzip_callback(client: Client, cb: CallbackQuery):
             await cb.message.edit("⚠️ No active extraction found.")
 
 
+# _extract_and_send
 async def _extract_and_send(
     client: Client,
     orig_msg: Message,
