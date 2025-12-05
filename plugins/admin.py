@@ -16,6 +16,7 @@ from config import Config
 logger = logging.getLogger(__name__)
 
 
+# get_dir_size
 def get_dir_size(path: str) -> int:
     total = 0
     try:
