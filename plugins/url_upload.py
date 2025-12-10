@@ -34,6 +34,7 @@ URL_REGEX = re.compile(
 )
 
 
+# extract_url_and_name
 def extract_url_and_name(text: str):
     """
     Parse `URL | custom_name.ext` or just `URL`.
