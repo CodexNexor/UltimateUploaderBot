@@ -48,7 +48,7 @@ HELP_TEXT = """
 
 **Unzip:**
 • Send any `.zip .rar .7z .tar .tar.gz` file
-• Bot extracts and sends all files
+• Bot extracts and sends all files.
 • Password? Reply with `/password <yourpass>` after sending
 
 **Admin Commands:**
