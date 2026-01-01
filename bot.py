@@ -2,7 +2,7 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║          ULTIMATE URL UPLOADER + UNZIP BOT                   ║
 ║   Features: URL Upload • HLS • Web Scraping • Unzip • RAR   ║
-║   Built with pyrogram | python-telegram-bot compatible       ║
+║   Built with Pyrogram       ║
 ╚══════════════════════════════════════════════════════════════╝
 """
 
