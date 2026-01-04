@@ -1,1 +1,1 @@
-# plugins package
+# UltimateUploaderBot plugins — Pyrogram command modules
