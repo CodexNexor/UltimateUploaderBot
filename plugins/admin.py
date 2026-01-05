@@ -106,7 +106,6 @@ async def status_cmd(client: Client, message: Message):
 async def status_cb(client, cb):
     await cb.answer()
     # Reuse status logic
-    fake_msg = cb.message
     user_id  = cb.from_user.id
     user_dir = os.path.join(Config.DOWNLOAD_LOCATION, str(user_id))
 
