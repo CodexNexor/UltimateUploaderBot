@@ -1,1 +1,1 @@
-# helper_funcs package
+# UltimateUploaderBot helpers — download, extract, metadata, progress, URL analysis
