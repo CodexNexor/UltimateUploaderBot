@@ -1,4 +1,7 @@
 .env
+session-*
+*.session
+*.session-journal
 DOWNLOADS/
 THUMBNAILS/
 __pycache__/
