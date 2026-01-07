@@ -246,7 +246,7 @@ async def _extract_and_send(
                 failed += 1
 
             # Update overall progress bar
-            pct  = (i + 1) * 100 // total
+            pct  = int((i + 1) * 100 / total)
             bar  = "█" * (pct // 5) + "░" * (20 - pct // 5)
             elapsed = round(time.time() - upload_start)
             try:
