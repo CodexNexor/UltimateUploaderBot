@@ -12,7 +12,8 @@ import uuid
 from urllib.parse import urlparse
 
 from pyrogram import Client, filters
-from pyrogram.types import (
+from pyrogram.types import (Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
+from helper_funcs.url_analyzer import analyze_url, classify_url
     Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 )
 
