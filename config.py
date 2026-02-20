@@ -13,6 +13,7 @@ id_pattern = re.compile(r'^-?\d+$')
 
 class Config:
     # ─── Bot Credentials ───────────────────────────────────────────
+    # Fill these via .env — never commit secrets
     BOT_TOKEN   = os.environ.get("BOT_TOKEN", "")          # @BotFather token
     API_ID      = int(os.environ.get("API_ID", "0"))        # my.telegram.org
     API_HASH    = os.environ.get("API_HASH", "")            # my.telegram.org
