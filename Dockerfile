@@ -18,4 +18,5 @@ COPY . .
 
 RUN mkdir -p DOWNLOADS THUMBNAILS
 
+# Start bot
 CMD ["python", "bot.py"]
