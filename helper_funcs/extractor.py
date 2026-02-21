@@ -1,8 +1,4 @@
-"""
-Archive extraction engine.
-Supports: .zip, .rar, .7z, .tar, .tar.gz, .tgz, .tar.bz2, .tar.xz
-Handles password-protected archives.
-"""
+"""Archive extraction — ZIP, RAR, 7z, TAR with password support."""
 import os
 import asyncio
 import logging
