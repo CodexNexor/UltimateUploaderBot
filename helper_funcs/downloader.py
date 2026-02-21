@@ -1,11 +1,4 @@
-"""
-Download engine.
-Handles:
-  • Direct HTTP/HTTPS file downloads (aiohttp streaming)
-  • HLS / DASH streams (yt-dlp + ffmpeg)
-  • YouTube, Instagram, Twitter, Facebook (yt-dlp)
-  • Generic yt-dlp fallback for anything else
-"""
+"""Download engine — aiohttp streaming, yt-dlp, ffmpeg for HLS/DASH, social media."""
 import os
 import asyncio
 import logging
