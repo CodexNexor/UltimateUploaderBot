@@ -1,6 +1,4 @@
-"""
-Progress bar utilities — upload / download progress for pyrogram callbacks.
-"""
+"""Progress bars for Pyrogram upload/download callbacks."""
 import math
 import time
 import logging
