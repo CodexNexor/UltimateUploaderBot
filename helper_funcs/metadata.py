@@ -1,7 +1,4 @@
-"""
-Media metadata extraction — width, height, duration, thumbnail generation.
-Uses hachoir for metadata and ffmpeg for thumbnail extraction.
-"""
+"""Media metadata — hachoir for metadata, ffmpeg for thumbnails."""
 import os
 import asyncio
 import logging
