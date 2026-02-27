@@ -1,8 +1,4 @@
-"""
-Advanced URL analyzer and web scraper.
-Detects: direct download links, HLS (.m3u8), DASH (.mpd), CDN media,
-embedded players, JS-embedded URLs, and general media links.
-"""
+"""URL analyzer and web scraper — detects direct links, HLS, DASH, CDN, embedded media."""
 import re
 import logging
 import random
