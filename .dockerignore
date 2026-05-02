@@ -1,0 +1,9 @@
+.env
+.git
+.gitignore
+DOWNLOADS/
+THUMBNAILS/
+__pycache__/
+*.pyc
+*.pyo
+*.log

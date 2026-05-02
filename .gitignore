@@ -1,0 +1,5 @@
+.env
+DOWNLOADS/
+THUMBNAILS/
+__pycache__/
+*.pyc

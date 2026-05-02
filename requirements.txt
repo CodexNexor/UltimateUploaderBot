@@ -1,0 +1,28 @@
+# Telegram
+pyrofork>=2.3.0
+tgcrypto
+
+# Download / streaming
+yt-dlp
+aiohttp
+aiofiles
+requests
+
+# Archive extraction
+pyunpack
+patool
+rarfile
+py7zr
+# Note: also install system packages: unrar, 7z, p7zip-full
+
+# Media metadata
+hachoir
+Pillow
+
+# Web scraping
+beautifulsoup4
+lxml
+
+# Utilities
+psutil
+python-dotenv
